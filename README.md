@@ -1,6 +1,11 @@
 # Directory command history
-
-
+## Table of content
+- [Why](#why)
+- [How does it work](#how-does-it-work)
+- [Installation and Usage](#installation-and-usage)
+- [Warning](#warning)
+- [Known problems](#known-problems)
+- [Wish-list](#wish-list)
 
 ## Why
 When making a project for the first time with a new technology (e.g framework) you may want to **save the commands you used during the project setup / workflow** to remember how you did it when creating the next project .
