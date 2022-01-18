@@ -37,7 +37,7 @@ $ direnv allow .
 ```
 
 ## Warning : 
-
+If you're version controlling your project (aka using git) , make sure to exclude  dirhistory's log file (dir_history.txt) by adding it to `.gitignore` to avoid leaking sensitive information found in commands after uploading project to a cloud-based Git repository hosting service (github, gitlab , ..)
 
 ## Known problems:
 - the script is late by one command , make sure to run one last dummy command for e.g `ls` before exiting the directory so the last meaningful command gets logged.
