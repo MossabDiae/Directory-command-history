@@ -43,7 +43,7 @@ If you're version controlling your project (aka using git) , make sure to exclud
 
 ## Known problems:
 - the script is late by one command , make sure to run one last dummy command for e.g `ls` before exiting the directory so the last meaningful command gets logged.
-- if you're syncing history across multiple terminals (with `export PROMPT_COMMAND="history -a; history -n; ${PROMPT_COMMAND}"`) interactions can happen (the last command you run in another terminal gets logged)
+- if you're syncing history across multiple terminals (with `export PROMPT_COMMAND="history -a; history -n; ${PROMPT_COMMAND}"`) interactions can happen (the last command run in another terminal gets logged)
 
 # Wish-list
 - fix Known problems.
