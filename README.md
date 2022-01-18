@@ -11,6 +11,16 @@ The file name and location can be set using the env variables `DH_FILENAME` and 
 
 dirhistory relies on [direnv](https://github.com/direnv/direnv) to set the environments variables (`DH_ACTIVE`,`DH_LOGDIR`, `DH_FILENAME`) based on the current directory.
 
+## Installation and Usage:
+1. [Install direnv](https://github.com/direnv/direnv/blob/master/docs/installation.md) , e.g Debian based distro `sudo apt install direnv`
+2. download and save `dirhistory.sh` somewhere and note its path (e.g in home directory `~/dirhistory.sh`)
+3. Hook both direnv and dirhistory to your shell by appending the following lines to `~/.bashrc`
+``` bash
+# ......
+eval "$(direnv hook bash)"
+source dirhistory.sh
+```
+
 ## Warning : 
 
 
