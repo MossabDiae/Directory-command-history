@@ -7,7 +7,7 @@ This project aims to automate saving commands run while inside a specific direct
 
 ## How does it work : 
 Before each prompt, dirhistory checks if the environment variable `DH_ACTIVE` is set to `true`, if so, it logs the last executed command into a file .
-The file name and location can be set using the env variables `DH_FILENAME` and `DH_LOGDIR` respectively , if not found it default to `./.dir_history.txt`
+The file name and location can be set using the env variables `DH_FILENAME` and `DH_LOGDIR` respectively , if not found it default to `./dir_history.txt`
 
 dirhistory relies on [direnv](https://github.com/direnv/direnv) to set the environments variables (`DH_ACTIVE`,`DH_LOGDIR`, `DH_FILENAME`) based on the current directory.
 
@@ -20,6 +20,7 @@ dirhistory relies on [direnv](https://github.com/direnv/direnv) to set the envir
 eval "$(direnv hook bash)"
 source dirhistory.sh
 ```
+4. 
 
 ## Warning : 
 

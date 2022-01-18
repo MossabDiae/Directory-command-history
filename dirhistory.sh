@@ -21,7 +21,7 @@ function setvars () {
         # set defaults : current_dir/dir_history.txt
         # SECURITY WARNING: make sure to exclude .dir_history.txt from git
         # using .gitignore (see README).
-        savename=.dir_history.txt
+        savename=dir_history.txt
         savedir=$(pwd)
     else
         savename=$DH_FILENAME
