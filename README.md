@@ -27,7 +27,7 @@ dirhistory relies on [direnv](https://github.com/direnv/direnv) to set the envir
 ``` bash
 # ......
 eval "$(direnv hook bash)"
-source dirhistory.sh
+source ~/dirhistory.sh
 ```
 4. Use direnv to set `DH_ACTIVE` value to `true` in your project folder:
 ``` bash
